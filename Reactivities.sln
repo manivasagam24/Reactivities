@@ -3,21 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{35E7119F-5AA6-4CD3-B6E6-4E995A869919}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{35E7119F-5AA6-4CD3-B6E6-4E995A869919}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{708455E2-230A-49DD-9FF0-6730DE9E7FCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{708455E2-230A-49DD-9FF0-6730DE9E7FCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{FD6B7C33-D8DE-4AD1-8F4A-7B88AC0CA930}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{FD6B7C33-D8DE-4AD1-8F4A-7B88AC0CA930}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{3AFAAFEA-1FE9-4A4E-B2FF-48444E08A665}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{3AFAAFEA-1FE9-4A4E-B2FF-48444E08A665}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{00028C90-A096-440C-AAA2-32303ABF3FCA}"
+	ProjectSection(SolutionItems) = preProject
+		client-app\.gitignore = client-app\.gitignore
+		client-app\src\App.css = client-app\src\App.css
+		client-app\src\App.tsx = client-app\src\App.tsx
+		client-app\eslint.config.js = client-app\eslint.config.js
+		client-app\src\index.css = client-app\src\index.css
+		client-app\index.html = client-app\index.html
+		client-app\src\main.tsx = client-app\src\main.tsx
+		client-app\package-lock.json = client-app\package-lock.json
+		client-app\package.json = client-app\package.json
+		client-app\README.md = client-app\README.md
+		client-app\tsconfig.app.json = client-app\tsconfig.app.json
+		client-app\src\vite-env.d.ts = client-app\src\vite-env.d.ts
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{35E7119F-5AA6-4CD3-B6E6-4E995A869919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -36,5 +49,11 @@ Global
 		{3AFAAFEA-1FE9-4A4E-B2FF-48444E08A665}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AFAAFEA-1FE9-4A4E-B2FF-48444E08A665}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AFAAFEA-1FE9-4A4E-B2FF-48444E08A665}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0ECFA47-DC19-4B78-A2AA-68932C7C1393}
 	EndGlobalSection
 EndGlobal
