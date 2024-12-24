@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{3AFAAFEA-1FE9-4A4E-B2FF-48444E08A665}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{00028C90-A096-440C-AAA2-32303ABF3FCA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client App", "Client App", "{00028C90-A096-440C-AAA2-32303ABF3FCA}"
 	ProjectSection(SolutionItems) = preProject
 		client-app\.gitignore = client-app\.gitignore
 		client-app\src\App.css = client-app\src\App.css
